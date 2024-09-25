@@ -24,6 +24,5 @@ app.use(express.json());
 app.use(routes);
 
 app.listen(PORT, () => {
-  console.log("App is running at port ${PORT}");
-  console.log("This is working");
+  console.log(`App is running at port ${PORT}`);
 });
