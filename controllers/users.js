@@ -24,7 +24,7 @@ const updateUser = (req, res) => {
       if (!updatedUser) {
         return res.status(NOT_FOUND).send({ message: "User not found" });
       }
-      return res.send(updatedUser);
+      return res.status(200).send(updatedUser);
     })
     .catch((err) => {
       if (err.name === "ValidationError") {
