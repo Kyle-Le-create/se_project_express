@@ -2,7 +2,7 @@ const ClothingItem = require("../models/clothingItem");
 const { handleErrors } = require("../utils/errors");
 const { OKAY_REQUEST, CREATE_REQUEST } = require("../utils/errors");
 const { DEFAULT } = require("./users");
-const BadRequestError = require("../errors/BadRequstError");
+const BadRequestError = require("../errors/BadRequestError");
 const { ForbiddenError } = require("../errors/ForbiddenError");
 
 const createItem = (req, res, next) => {

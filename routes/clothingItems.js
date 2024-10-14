@@ -6,7 +6,7 @@ const {
   deleteItem,
   likeItem,
   deleteLike,
-} = require("../controllers/clothingItem");
+} = require("../controllers/clothingItems");
 
 const auth = require("../middlewares/auth");
 
