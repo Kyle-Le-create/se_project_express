@@ -2,7 +2,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const JWT_SECRET = require("../utils/config");
 const User = require("../models/user");
-const { BadRequestError } = require("../errors/BadRequstError");
+const { BadRequestError } = require("../errors/BadRequestError");
 const { NotAuthorized } = require("../errors/NotAuthorized");
 const {
   OKAY_REQUEST,
